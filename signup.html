@@ -11,13 +11,14 @@
     <nav class="homeNav">
       <ul>
         <li>Home</li>
-        <li>Register</li>
         <li>About</li>
         <li>Contact</li>
+        <li class="registerBtn">Register</li>
       </ul>
     </nav>
     <main class="main-content">
-      <form>
+      <form class="regForm" method="POST">
+          <div class="closeBtn">&Cross;</div>
         <input
           type="text"
           name="fullname"
@@ -36,7 +37,7 @@
           id="password"
           placeholder="password"
         />
-        <button>Register</button>
+        <button class="regSubmitBtn">Register</button>
       </form>
     </main>
     <script src="./js/jquery.js"></script>

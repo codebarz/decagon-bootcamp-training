@@ -21,6 +21,7 @@ body {
   display: inline-block;
   line-height: 50px;
   padding: 0 10px;
+  cursor: pointer;
 }
 .main-content form {
   width: 50%;
@@ -40,4 +41,11 @@ body {
   background: #38bc8a;
   color: #fff;
   border-radius: 4px;
+}
+.regForm {
+  display: none;
+}
+.closeBtn {
+  font-size: 50px;
+  color: #dd0d0d;
 }
