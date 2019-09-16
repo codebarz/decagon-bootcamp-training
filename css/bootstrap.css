@@ -42,10 +42,12 @@ body {
   color: #fff;
   border-radius: 4px;
 }
-.regForm {
+.regForm,
+.loginForm {
   display: none;
 }
-.closeBtn {
+.closeBtn,
+.closeLoginBtn {
   font-size: 50px;
   color: #dd0d0d;
 }
