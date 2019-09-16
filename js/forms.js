@@ -1,4 +1,5 @@
 $(document).ready(function() {
+  //Over sabi Effect
   $('.registerBtn').click(function() {
     $('.regForm').fadeIn();
   });
@@ -11,6 +12,7 @@ $(document).ready(function() {
   $('.closeLoginBtn').click(function() {
     $('.loginForm').fadeOut();
   });
+  //Registration Function
   $('.regSubmitBtn').click(function(event) {
     event.preventDefault();
     const fullname = $('#fullname').val();
@@ -54,6 +56,7 @@ $(document).ready(function() {
       },
     });
   });
+  //Login Function
   $('.loginSubmitBtn').click(function(event) {
     event.preventDefault();
     const passwordLogin = $('#passwordLogin').val();
@@ -84,6 +87,7 @@ $(document).ready(function() {
       },
     });
   });
+  //Logout Function
   $('.logoutBtn').click(function() {
     localStorage.clear();
     $('.checkLogin').html('Kindly login');
